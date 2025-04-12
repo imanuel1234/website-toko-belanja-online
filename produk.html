@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Toko Online Fernando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Online Imanuel Fernando</h1>
+        <nav>
+            <a href="beranda.html">Beranda</a>
+            <a href="login akun pemilik.html">Login</a>
+        </nav>
+    </header>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #00c6ff;
+            font-weight: bold;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-card h3 {
+            color: #333;
+            margin: 10px 0 5px;
+        }
+
+        .product-card p {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .product-card button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+            background-color: #00c6ff;
+            border: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-card button:hover {
+            background-color: #0096c7;
+        }
+
+        .product-count {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            color: #333;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="product-grid">
+        <div class="product-card">
+            <img src="images/laptop.jpg" alt="Laptop Gaming">
+            <h3>Laptop Gaming</h3>
+            <p>Rp 12.000.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/hp.jpg" alt="Smartphone">
+            <h3>Smartphone Pro Max</h3>
+            <p>Rp 8.000.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/headset.jpg" alt="Headset">
+            <h3>Headset Bluetooth</h3>
+            <p>Rp 450.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/smartwatch.jpg" alt="Smartwatch">
+            <h3>Smartwatch Sport</h3>
+            <p>Rp 950.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/kamera.jpg" alt="Kamera DSLR">
+            <h3>Kamera DSLR</h3>
+            <p>Rp 5.500.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/speaker.jpg" alt="Speaker Bluetooth">
+            <h3>Speaker Bluetooth</h3>
+            <p>Rp 300.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/mouse.jpg" alt="Mouse Wireless">
+            <h3>Mouse Wireless</h3>
+            <p>Rp 120.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/keyboard.jpg" alt="Keyboard Gaming">
+            <h3>Keyboard Gaming</h3>
+            <p>Rp 350.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/tas.jpg" alt="Tas Laptop">
+            <h3>Tas Laptop</h3>
+            <p>Rp 180.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/powerbank.jpg" alt="Powerbank">
+            <h3>Powerbank 20000mAh</h3>
+            <p>Rp 220.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+
+        <!-- Tambahan 10 produk lagi -->
+        <div class="product-card">
+            <img src="images/tablet.jpg" alt="Tablet Android">
+            <h3>Tablet Android</h3>
+            <p>Rp 2.500.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/charger.jpg" alt="Charger Fast Charging">
+            <h3>Charger Fast Charging</h3>
+            <p>Rp 150.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/flashdisk.jpg" alt="Flashdisk 64GB">
+            <h3>Flashdisk 64GB</h3>
+            <p>Rp 90.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/harddisk.jpg" alt="Harddisk Eksternal">
+            <h3>Harddisk Eksternal 1TB</h3>
+            <p>Rp 850.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/casing.jpg" alt="Casing HP">
+            <h3>Casing HP Transparan</h3>
+            <p>Rp 75.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/monitor.jpg" alt="Monitor LED">
+            <h3>Monitor LED 24"</h3>
+            <p>Rp 1.600.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/printer.jpg" alt="Printer Canon">
+            <h3>Printer Canon</h3>
+            <p>Rp 1.200.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/webcam.jpg" alt="Webcam HD">
+            <h3>Webcam HD 1080p</h3>
+            <p>Rp 380.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/tripod.jpg" alt="Tripod">
+            <h3>Tripod Kamera</h3>
+            <p>Rp 210.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="product-card">
+            <img src="images/lampu.jpg" alt="Lampu Meja LED">
+            <h3>Lampu Meja LED</h3>
+            <p>Rp 130.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Toko Online Fernando</p>
+    </footer>
+</body>
+</html>
